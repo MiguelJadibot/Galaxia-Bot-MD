@@ -1,11 +1,8 @@
-window.onload = () => {
-let chat = document.querySelector('div.container-fluid')
-function addMsg(obj) {
-  let html = document.createElement('span')
-  html.className = 'msg'
-  html.innerHTML = obj
-  chat.appendChild(html)
-}
 
-window.onclick = () => addMsg(12)
-}
+import en from './en.js' 
+import es from './es.js' 
+import pt from './pt.js' 
+import id from './id.js'
+import ar from './ar.js'
+
+export {en, es, pt, id, ar}

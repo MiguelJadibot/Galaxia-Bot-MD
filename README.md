@@ -61,17 +61,36 @@ Multi-idioma para cada usuario, lo que significa que el usuario puede elegir el 
 | **IMAGEMAGICK** | [click](https://github.com/DuckyTeam/heroku-buildpack-imagemagick) |
 
 ### TERMUX
-1. 
-```sh
-$ pkg upgrade -y && pkg update -y
-$ pkg install git -y
-$ pkg install nodejs -y
-$ pkg install ffmpeg -y
-$ pkg install imagemagick -y
-$ git clone https://github.com/FG98F/senna-bot
-$ cd senna-bot
-$ npm i 
-$ npm start
+
+
+```bash
+pkg upgrade -y && pkg update -y
+```
+```bash
+ pkg install git -y
+```
+```bash
+ pkg install nodejs -y
+```
+```bash
+ pkg install ffmpeg -y
+```
+```bash
+ pkg install imagemagick -y
+```
+```bash
+ git clone https://github.com/MiguelJadibot/Galaxia-Bot-MD
+```
+```bash
+ cd Galaxia-Bot-MD
+```
+```bash
+ npm i 
+```
+```bash
+ npm start
+```
+
 ```
 2. Esperar a que se inicie el bot...
 3. Escanea el código QR desde el segundo dispositivo. (ir a whatsapp > Dispositivos Vinculados > Vincular un dispositivo)
